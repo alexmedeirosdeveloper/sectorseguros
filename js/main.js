@@ -43,6 +43,15 @@
         ],
     });
 
+    // Header carousel
+    $('#pills-home a').on('click', function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })
+    $('#pills-contact a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+    })      
 
 
     // testimonial carousel

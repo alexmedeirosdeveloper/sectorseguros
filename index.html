@@ -46,7 +46,9 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light"> 
                     <a href="#" class="navbar-brand p-0">
-                        <img src="img/porto seguro/logo-gmr.webp" alt="Logo">
+                        <img src="img/porto seguro/logo-azul.png" alt="Logo">
+                        <img src="img/porto seguro/selo_porto_elite.webp" alt="Logo">
+
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars"></span>
@@ -73,19 +75,9 @@
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                             -->
                             <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">Sobre</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                                    <span class="dropdown-toggle">Consórcio</span>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">Imóveis</a>
-                                    <a href="#" class="dropdown-item">Carros</a>
-                                    <a href="#" class="dropdown-item">Veículos Pesados</a>
-                                </div>
-                            </div>
                             <a href="service.html" class="nav-item nav-link">Seguros</a>
-                            <a href="contact.html" class="nav-item nav-link">Simulação</a>
+                            <a href="about.html" class="nav-item nav-link">Sobre</a>
+                            <a href="contact.html" class="nav-item nav-link">Contato</a>
                         </div>
                     </div>
                 </nav>
@@ -95,7 +87,7 @@
 
         <!-- About Start -->
         <div class="container-fluid bg-light about pb-5">
-            <div class="container pb-5">
+            <div class="container pb-5 py-5">
                 <div class="row g-5">
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="about-item-content bg-white rounded p-5 h-100">
@@ -112,32 +104,75 @@
 
                                 <div>
                                     <h4 class="text-primary">Simulação rápida</h4>
-                                    <p class="mb-4">Qual sonho deseja realizar?</p>
-                                    <form>
-                                        <div class="row g-3">
-                                            <div class="col-lg-12 col-xl-12">
-                                                <div class="form-floating">
-                                                    <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
-                                                    <label for="name">Nome</label>
+                                            <form>
+                                                <div class="row g-3">
+                                                    <div class="col-lg-6 col-xl-6 d-flex">
+                                                            <div class="form-floating">
+                                                                <p class="m-4">Qual sonho deseja realizar?</p>
+
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                                    <label class="form-check-label btn btn-primary" for="inlineRadio1">Imóvel</label>
+                                                                </div>
+                                                                
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                    <label class="form-check-label btn btn-primary" for="inlineRadio2">Casa</label>
+                                                                </div>
+                                                            </div>
+
+                                                    </div>    
+
+                                                    <div class="col-lg-6 col-xl-6 d-flex">
+                                                        <div class="form-floating">
+                                                            <p class="m-4">Simular por:</p>
+
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="inlineRadio" id="imovel" value="option1">
+                                                                <label class="form-check-label btn btn-primary" for="imovel">Parcela</label>
+                                                            </div>
+                                                            
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="inlineRadio" id="casa" value="option2">
+                                                                <label class="form-check-label btn btn-primary" for="casa">Crédito</label>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>  
+
+
+  
+                                                    <div class="col-lg-12 col-xl-12">
+                                                        <div class="form-floating">
+                                                            <p class="m-4">Escolha o valor da parcela</p>
+                                                            <label for="customRange3">Média de Preço</label>
+                                                            <input type="range" class="custom-range" min="0" max="10" step="0.5" id="customRange3">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-xl-12">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
+                                                            <label for="name">Nome</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-xl-12">
+                                                        <div class="form-floating">
+                                                            <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                                                            <label for="email">Email</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-xl-12">
+                                                        <div class="form-floating">
+                                                            <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
+                                                            <label for="phone">Celular</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <button class="btn btn-primary w-100 py-3">Simular</button>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-lg-12 col-xl-12">
-                                                <div class="form-floating">
-                                                    <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
-                                                    <label for="email">Email</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-xl-12">
-                                                <div class="form-floating">
-                                                    <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
-                                                    <label for="phone">Celular</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <button class="btn btn-primary w-100 py-3">Simular</button>
-                                            </div>
-                                        </div>
-                                    </form>
+                                            </form>
+
                                 </div>
                             </div>
                         </div>
@@ -148,37 +183,7 @@
         <!-- About End -->
 
 
-        <!-- SELO PORTO ELITE -->
-        <div class="container-fluid bg-light about pb-5">
-            <div class="container pb-5">
-                <div class="row g-5">
-                    <div class="col-xl-12 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="container">
-                            <div class="row">
 
-                                <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.2s">
-                                    <div class="about-item-content bg-white rounded p-5 h-100">
-                                        <div class="rounded bg-light">
-                                            <img src="img/porto seguro/selo_porto_elite.webp" class="img-fluid rounded w-100" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xl-8 wow fadeInLeft" data-wow-delay="0.2s">
-                                    <div class="about-item-content bg-white rounded p-5 h-100">
-                                        <p>
-                                            Com a GMR você tem a vantagem de receber um atendimento consultivo focado no seu objetivo. Por isso, 
-                                            temos o selo Porto Elite Blue, aliás são raras as corretoras de investimentos que têm esse selo.  
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>        
-                    </div>    
-                </div>
-            </div>
-        </div>
-        <!-- SELO PORTO ELITE End -->
 
         <!-- SELO PORTO ELITE -->
         <div class="container-fluid bg-light about pb-5">
@@ -215,8 +220,10 @@
                                             Você também pode usar seu crédito do consórcio para construir, reformar, comprar uma casa de praia ou um terreno.
                                         </p>
                                         <h1 class="text-primary">
-                                            O consórcio é uma ótima opção para você adquirir um imóvel, automóvel, 
-                                            entre outros, por meio de parcelas mensais e sem juros.
+                                            Consorcio de imóveis oferece economia de mais de R$ 600 mil em relação a financiamento
+                                        </h1>
+                                        <h1 class="text-primary">
+                                            Ninguém vai construir seu patrimônio no seu lugar.
                                         </h1>
                                     </div>
                                 </div>
@@ -234,45 +241,54 @@
         <div class="container-fluid service py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Services</h4>
                     <h1 class="display-4 mb-4">Planos acessíveis para você adquirir o consórcio imobiliário</h1>
                 </div>
 
                 <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-md-6 col-lg-6 col-xl-4 coluna wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="img/porto seguro/consorcio-de-casa.webp" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
-                                    <i class="fa fa-users fa-2x"></i>
+                                    <i class="fa fa-home fa-2x"></i>
                                 </div>
                             </div>
                             <div class="service-content p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Consórcio de Casa</a>
-                                    <p class="mb-4">Parcelas de R$ 3.093, 08 no plano de 200 meses</p>
+                                    <a href="#" class="d-inline-block h4 mb-4"><h2>Consórcio de </br>Imóveis</h2></a>
+                                    <h4>Apartamento 400 mil</h4>
+                                    <p class="mb-4">Parcelas a partir de  R$ 1.965,88</p>
+                                    <h4>Casa 600 mil</h4>
+                                    <p class="mb-4">Parcelas a partir de R$ 2.911,65</p>
+                                    <h4>Reforma 70 mil</h4>
+                                    <p class="mb-4">Parcelas a partir de R$ 361,38</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-md-6 col-lg-6 col-xl-4 coluna wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="img/porto seguro/consorcio-de-apartamento.webp" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
-                                    <i class="fa fa-hospital fa-2x"></i>
+                                    <i class="fa fa-car fa-2x"></i>
                                 </div>
                             </div>
                             <div class="service-content p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Consórcio de Apartamento</a>
-                                    <p class="mb-4">Parcelas a partir de R$ 1.855,85 no plano de 200 meses</p>
+                                    <a href="#" class="d-inline-block h4 mb-4"><h2>Consórcio de </br>Automóveis</h2></a>
+                                    <h4>Automóvel 60 mil</h4>
+                                    <p class="mb-4">Parcelas a partir de  R$ 893,00</p>
+                                    <h4>Automóvel 125 mil</h4>
+                                    <p class="mb-4">Parcelas a partir de  R$ 1.351,00</p>
+                                    <h4>Automóvel 70 mil</h4>
+                                    <p class="mb-4">Parcelas a partir de  R$ 2.161,00</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-md-6 col-lg-6 col-xl-4 coluna wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
                                 <img src="img/porto seguro/consorcio-de-terreno.webp" class="img-fluid rounded-top w-100" alt="">
@@ -282,24 +298,13 @@
                             </div>
                             <div class="service-content p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Consórcio de Terreno</a>
-                                    <p class="mb-4">Parcelas a partir de R$ 1.522,91 no plano de 200 meses</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/porto seguro/consorcio-de-reforma.webp" class="img-fluid rounded-top w-100" alt="">
-                                <div class="service-icon p-3">
-                                    <i class="fa fa-home fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="service-content p-4">
-                                <div class="service-content-inner">
-                                    <a href="#" class="d-inline-block h4 mb-4">Consórcio para Reforma da Casa na Praia</a>
-                                    <p class="mb-4">Parcelas a partir de R$ 349,00 no plano de 200 meses</p>
+                                    <a href="#" class="d-inline-block h4 mb-4"><h2>Consórcio de </br>Pesados</h2></a>
+                                    <h4>Pesados 200 mil</h4>
+                                    <p class="mb-4">Parcelas a partir de  R$ 1.627,00</p>
+                                    <h4>Pesados 300 mil</h4>
+                                    <p class="mb-4">Parcelas a partir de  R$ 2.441,00</p>
+                                    <h4>Pesados 360 mil</h4>
+                                    <p class="mb-4">Parcelas a partir de  R$ 2.930,00</p>
                                 </div>
                             </div>
                         </div>
@@ -321,11 +326,10 @@
         <div class="container-fluid feature bg-light py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Features</h4>
                     <h1 class="display-4 mb-4">Vantagens do Consórcio Porto Seguro</h1>
                 </div>
                 <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 coluna wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <img src="img/porto seguro/icon-parcelas.webp" class="img-fluid" alt="">
@@ -333,7 +337,7 @@
                             <h4 class="mb-4">Opções de parcelas reduzidas até a contemplação</h4>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 coluna wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <img src="img/porto seguro/icon-planos.webp" class="img-fluid" alt="">
@@ -341,7 +345,7 @@
                             <h4 class="mb-4">Planos sem juros e com taxas diferenciadas</h4>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 coluna wow fadeInUp" data-wow-delay="0.6s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <img src="img/porto seguro/icon-contemplacoes.webp" class="img-fluid" alt="">
@@ -349,7 +353,7 @@
                             <h4 class="mb-4">Contemplações mensais por meio de lance ou sorteio</h4>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="col-md-6 col-lg-6 col-xl-3 coluna wow fadeInUp" data-wow-delay="0.8s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
                                 <img src="img/porto seguro/icon-fgts.webp" class="img-fluid" alt="">
@@ -357,12 +361,18 @@
                             <h4 class="mb-4">Possibilidade de utilizar o FGTS de acordo com as regras da Caixa Econômica Federal</h4>
                         </div>
                     </div>
+                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#">FAÇA UMA SIMULAÇÃO GRATUITA</a>
+                        <p>
+                            E ganhe uma consultoria GRATUITA!
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Feature End -->
 
-                <!-- Service Start -->
+                <!-- Service Start
                 <div class="container-fluid service py-5">
                     <div class="container py-5">
                         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
@@ -445,7 +455,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Service End -->        
+                 Service End -->        
 
         <!-- Footer Start -->
         <div class="container-fluid footer wow fadeIn" data-wow-delay="0.2s">
@@ -457,14 +467,19 @@
                                 <div class="col-md-12 col-lg-12 col-xl-12 text-center">
                                     <div class="footer-item align-items-center">
                                         <a href="index.html" class="p-0">
-                                            <img src="img/porto seguro/logo-gmr.webp" alt="Logo">
+                                            
+                                            <img src="img/porto seguro/logo-branco.png" alt="Logo">
+                                            <img src="img/porto seguro/selo_porto_elite.webp" alt="Logo">
+
                                         </a>
-                                        <div class="footer-btn d-flex">
+                                        <div class="footer-btn p-5 d-flex">
                                             <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-whatsapp"></i></a>
                                             <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-instagram"></i></a>
-                                            <a class="btn btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
                                         </div>
+                                        <p class="text-white mb-3">Rua Mar Del Plata, 1145 - Jd. América / CEP: 12.235-340</p>
+                                        <p class="text-white mb-3">CNPJ:  47.805.953/0001-90</p>
+
                                     </div>
                                 </div>
                             </div>
