@@ -53,6 +53,22 @@
     $(this).tab('show')
     })      
 
+    // Price Range
+    
+    var range = document.getElementById("range");
+
+    var impressao = document.getElementById("impressao");
+    
+    impressao.innerHTML = range.value;
+    
+    range.oninput = function() {
+      impressao.innerHTML = parseInt(this.value).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    }
+    
+    // disparar o evento manualmente
+    var event = new CustomEvent("input");
+    range.dispatchEvent(event);
+
 
     // testimonial carousel
     $(".testimonial-carousel").owlCarousel({
