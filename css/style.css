@@ -71,6 +71,13 @@
     border: none;
 }
 
+.btn.btn-primary.botaosimulacao {
+    border-radius: 30px;
+    color: var(--bs-white);
+    border: none;
+    width: 130px;
+}
+
 .btn.btn-primary:hover {
     background: var(--bs-dark);
     color: var(--bs-white);
@@ -125,8 +132,6 @@
 /*** Topbar End ***/
 
 /*** Range Price Start ***/
-
-
 
 .gfg {
     display: flex;
@@ -256,8 +261,60 @@ input[type="range"]::-webkit-slider-thumb {
 
 /*** Range Price End ***/
 
+/*** Logo Start ***/
+
+.logo-sector {
+    height: 60px;
+    width: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.logo-porto {
+    height: 18px;
+    width: auto;
+    margin-left: 20px;
+    margin-bottom: 4px;
+}
+
+.logo-elite {
+    height: 40px;
+    width: auto;
+    margin-right: 20px;
+    margin-bottom: 4px;
+}
+
+
+
+
 
 /*** Simulação ***/
+
+.text-simulacao {
+    color: #015fc9;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 900px;
+}
+
+.simulacao-item-content {
+    align-content: center;
+    align-items: center;
+}
+
+.simulacao {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.08);
+    margin: 0 0 0 auto;
+    padding: 15px 5px;
+    position: relative;
+}
+
+.simulacaorange{
+    width: 100%;
+}
+
 .form-background {
     background: #e5e5e5;
     border-radius: 15px;
@@ -269,6 +326,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .btn-secondary {
+    border-radius: 90px;
     color: #000;
     background: #e5e5e5;
     border-color: #015fc9;
@@ -347,6 +405,95 @@ background-color: none;
     border: 1px solid rgba(0, 0, 0, .25);
     appearance: none;
 }
+
+
+/*** Plano 200 meses ***/
+.planocontainer {
+    max-height: 600px;
+}
+
+.plano-item-content {
+    background: #FFF;
+    box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    position: relative;
+    bottom: 870px;
+    left: 100%;
+    width: 366px;
+    text-align: center;
+    font-family: "Montserrat", Sans-serif !important;
+}
+
+.plano-left-content {
+    position: relative;
+    left: 10%;
+    
+}
+
+@media (max-width: 1200px) { 
+    .plano-item-content {
+        background: #FFF;
+        box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        position: relative;
+        bottom: 870px;
+        left: 60%;
+        width: 366px;
+        text-align: center;
+        font-family: "Montserrat", Sans-serif !important;
+    }
+
+    .plano-left-content {
+        position: relative;
+        left: 0%;
+        
+    }
+}
+
+@media (max-width: 768px) { 
+    .plano-item-content {
+        background: #FFF;
+        box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        position: relative;
+        bottom: 275px;
+        left: 0%;
+        width: 415px;
+        text-align: center;
+        font-family: "Montserrat", Sans-serif !important;
+    }
+
+    .plano-left-content {
+        position: relative;
+        left: 0%;
+        
+    }
+}
+
+@media (max-width: 425px) { 
+    .plano-item-content {
+        background: #FFF;
+        box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        position:relative;
+        bottom: 375px;
+        left: 0%;
+        width: 300px;
+        text-align: center;
+        font-family: "Montserrat", Sans-serif !important;
+    }
+
+    .plano-left-content {
+        position: relative;
+        left: 0%;
+        
+    }
+
+    .planocontainer {
+        max-height: 600px;
+    }
+}
+
 
 /*** Navbar Start ***/
 .nav-bar {

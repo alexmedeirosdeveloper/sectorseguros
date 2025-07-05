@@ -46,8 +46,9 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light"> 
                     <a href="#" class="navbar-brand p-0">
-                        <img src="img/porto seguro/logo-azul.png" alt="Logo">
-                        <img src="img/porto seguro/logo-porto-seguro.webp" alt="Logo">
+                        <img src="img/porto seguro/selo_porto_elite.webp" class="logo-elite" alt="Logo">
+                        <img src="img/porto seguro/logo-azul.png" class="logo-sector" alt="Logo">
+                        <img src="img/porto seguro/logo-porto-seguro.webp" class="logo-porto" alt="Logo">
 
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -86,29 +87,30 @@
         <!-- Navbar & Hero End -->
 
         <!-- About Start -->
-        <div class="container-fluid bg-light about pb-5">
-            <div class="container pb-5 py-5">
-                <div class="row g-5">
-                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="about-item-content bg-white rounded p-5 h-100">
+        <div class="container-fluid about pb-5">
+            <div class="container pb-3">
+                <div class="row">
+                    <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="simulacao-item-content bg-white rounded p-2 h-100">
                             <img src="img/porto seguro/selo_porto_elite.webp" class="img-fluid rounded w-100 navbar-brand p-0 logo" alt="">
-                            <h1 class="display-4 mb-4">Consórcio Imobiliário Porto Seguro.</h1>
-                            <h4>
+                            <h1 class="display-4 mb-4 text-simulacao">Consórcio </br>Imobiliário </br>Porto Seguro.</h1>
+                            <h2>
                                 Investimento Inteligente, Rentável e Sem Juros.
-                            </h4>
+                            </h2>
                         </div>
                     </div>
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="bg-white rounded p-5 h-100">
-                            <div class="row g-4 justify-content-center">
+                    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="col-xl-12 wow fadeInRight" data-wow-delay="0.2s">
+                            <div class="bg-white rounded p-2 h-100">
+                            <div class="row simulacao justify-content-center">
 
-                                <div>
-                                    <h4 class="text-primary">Simulação rápida</h4>
+                                <div class="text-center">
+                                    <h2 class="text-primary">Simulação rápida</h2>
                                             <form>
                                                 <div class="row g-3">
-                                                    <div class="col-lg-6 col-xl-6 d-flex">
+                                                    <div class="col-lg-6 col-xl-6 p-3 justify-content-center d-flex">
                                                             <div class="form-floating">
-                                                                <p class="m-4">Qual sonho deseja realizar?</p>
+                                                                <p class="">Qual sonho deseja realizar?</p>
 
                                                                     <div class="text-center align-items-center">
                                                                         <div class="form-background btn-group">
@@ -125,9 +127,9 @@
 
                                                     </div>    
 
-                                                    <div class="col-lg-6 col-xl-6 d-flex">
+                                                    <div class="col-lg-6 col-xl-6 p-3 justify-content-center d-flex">
                                                         <div class="form-floating">
-                                                            <p class="m-4">Simular por:</p>
+                                                            <p class="">Simular por:</p>
 
                                                             <div class="text-center align-items-center">
                                                                 <div class="form-background btn-group">
@@ -150,9 +152,10 @@
   
                                                     <div class="col-lg-12 col-xl-12">
                                                         <div class="form-floating">
-                                                            
+                                                            <p>Escolha o valor do crédito ou parcela</p>
+
                                                             <h2><span id="impressao"></span></h2>
-                                                            <input type="range" value="500" min="500" max="3000000" step="100" id="range">
+                                                            <input type="range" value="500" min="500" max="3000000" step="100" id="range" class="simulacaorange">
 
                                                         </div>
                                                     </div>
@@ -174,8 +177,10 @@
                                                             <label for="phone">Celular</label>
                                                         </div>
                                                     </div>
-                                                    <div class="col-12">
-                                                        <button class="btn btn-primary w-100 py-3">Simular</button>
+                                                    <div class="col-lg-12 col-xl-12 justify-content-center d-flex">
+                                                        <div class="form-floating">
+                                                            <button class="btn btn-primary botaosimulacao py-3 pb-3">Simular</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </form>
@@ -184,6 +189,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -197,28 +203,46 @@
             <div class="container pb-5">
                 <div class="row g-5">
                     <div class="col-xl-12 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="container">
+                        <div class="container planocontainer">
                             <div class="row">
-
-                                <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
-                                    <div class="about-item-content bg-white rounded p-5 h-100">
+                                <div class="col-xl-8 wow fadeInLeft" data-wow-delay="0.2s">
+                                    <div class="plano-left-content justify-content-center h-100">
                                         <div class="rounded bg-light">
                                             <img src="img/porto seguro/familia.webp" class="img-fluid rounded w-100" alt="">
                                         </div>
-                                            <h4 class="text-primary">Planos de 200 meses</h4>
-                                            <p class="mb-4">para pagar com opções de parcela reduzida até a contemplação.</p>
-                                            <div class="col-12">
-                                                <button class="btn btn-primary w-100 py-3">FAÇA UMA SIMULAÇÃO</button>
-                                                <p>
-                                                    E ganhe uma consultoria GRATUITA!
-        
-                                                </p>
-                                            </div>
                                     </div>
+
+                                    <div class="plano-item-content bg-white rounded p-5">
+                                        <h4>Planos de</h4><h2 class="text-primary">200 meses</h2>
+                                        <p class="mb-4">para pagar com opções de parcela reduzida até a contemplação.</p>
+                                        <div class="col-12">
+                                            <button class="btn btn-primary w-100 py-3">FAÇA UMA SIMULAÇÃO</button>
+                                            <p>
+                                                E ganhe uma consultoria GRATUITA!
+    
+                                            </p>
+                                        </div>
+                                    </div>
+
                                 </div>
 
 
-                                <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
+
+
+                            </div>
+                        </div>        
+                    </div>    
+                </div>
+            </div>
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-xl-12 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="container">
+                            <div class="row">
+
+
+
+                                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                                     <div class="about-item-content bg-white rounded p-5 h-100">
                                         <p class="mb-4">
                                             Além do sorteio mensal, é possível dar lances, inclusive usando seu FGTS, para ampliar as suas chances de ser contemplado.
@@ -226,11 +250,13 @@
                                         <p class="mb-4">
                                             Você também pode usar seu crédito do consórcio para construir, reformar, comprar uma casa de praia ou um terreno.
                                         </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                                    <div class="about-item-content bg-white rounded p-5 h-100">
                                         <h1 class="text-primary">
                                             Consorcio de imóveis oferece economia de mais de R$ 600 mil em relação a financiamento
-                                        </h1>
-                                        <h1 class="text-primary">
-                                            Ninguém vai construir seu patrimônio no seu lugar.
                                         </h1>
                                     </div>
                                 </div>
@@ -277,7 +303,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-4 coluna wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/porto seguro/consorcio-de-apartamento.webp" class="img-fluid rounded-top w-100" alt="">
+                                <img src="img/porto seguro/consorcio-de-automoveis.webp" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
                                     <i class="fa fa-car fa-2x"></i>
                                 </div>
@@ -289,7 +315,7 @@
                                     <p class="mb-4">Parcelas a partir de  R$ 893,00</p>
                                     <h4>Automóvel 125 mil</h4>
                                     <p class="mb-4">Parcelas a partir de  R$ 1.351,00</p>
-                                    <h4>Automóvel 70 mil</h4>
+                                    <h4>Automóvel 200 mil</h4>
                                     <p class="mb-4">Parcelas a partir de  R$ 2.161,00</p>
                                 </div>
                             </div>
@@ -298,9 +324,9 @@
                     <div class="col-md-6 col-lg-6 col-xl-4 coluna wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/porto seguro/consorcio-de-terreno.webp" class="img-fluid rounded-top w-100" alt="">
+                                <img src="img/porto seguro/consorcio-de-pesados.webp" class="img-fluid rounded-top w-100" alt="">
                                 <div class="service-icon p-3">
-                                    <i class="fa fa-car fa-2x"></i>
+                                    <i class="fa fa-truck-moving fa-2x"></i>
                                 </div>
                             </div>
                             <div class="service-content p-4">
@@ -340,25 +366,25 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item p-4 pt-0 h-100">
                             <div class="feature-icon p-4 mb-4">
-                                <img src="img/porto seguro/icon-parcelas.webp" class="img-fluid" alt="">
+                                <i class="fa fa-search-dollar fa-2x"></i>
                             </div>
-                            <h4 class="mb-4">Opções de parcelas reduzidas até a contemplação</h4>
+                            <h4 class="">Opções de parcelas reduzidas até a contemplação</h4>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-item p-4 pt-0 h-100">
                             <div class="feature-icon p-4 mb-4">
-                                <img src="img/porto seguro/icon-planos.webp" class="img-fluid" alt="">
+                                <i class="fa fa-hand-holding-usd fa-2x"></i>
                             </div>
-                            <h4 class="mb-4">Planos sem juros e com taxas diferenciadas</h4>
+                            <h4 class="mb-4">Planos sem </br>juros e com taxas </br>diferenciadas</h4>
                         </div>
                     </div>
 
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="feature-item p-4 pt-0 h-100">
                             <div class="feature-icon p-4 mb-4">
-                                <img src="img/porto seguro/icon-contemplacoes.webp" class="img-fluid" alt="">
+                                <i class="fa fa-gift fa-2x"></i>
                             </div>
                             <h4 class="mb-4">Contemplações mensais por meio de lance ou sorteio</h4>
                         </div>
@@ -367,9 +393,9 @@
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4 h-100">
-                                <img src="img/porto seguro/icon-fgts.webp" class="img-fluid" alt="">
+                                <i class="fa fa-piggy-bank fa-2x"></i>
                             </div>
-                            <h4 class="mb-4">Possibilidade de utilizar o FGTS de acordo com as regras da Caixa Econômica Federal</h4>
+                            <h5 class="mb-4">Possibilidade de utilizar o FGTS de acordo com as regras da Caixa Econômica Federal</h5>
                         </div>
                     </div>
                     
@@ -482,8 +508,9 @@
                                     <div class="footer-item align-items-center">
                                         <a href="index.html" class="p-0">
                                             
-                                            <img src="img/porto seguro/logo-branco.png" alt="Logo">
-                                            <img src="img/porto seguro/logo-porto-seguro.webp" alt="Logo">
+                                            <img src="img/porto seguro/selo_porto_elite.webp" class="logo-elite" alt="Logo">
+                                            <img src="img/porto seguro/logo-branco.png" class="logo-sector" alt="Logo">
+                                            <img src="img/porto seguro/logo-porto-seguro.webp" class="logo-porto" alt="Logo">
 
                                         </a>
                                         <div class="footer-btn p-5 d-flex">
@@ -511,7 +538,7 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-end mb-md-0">
-                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Claudio</a>, Todos os Direitos Reservados.</span>
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Sector Seguros</a>, Todos os Direitos Reservados.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-start text-body">
                         Desenvolvido por <a class="border-bottom text-white" href="https://alexmedeirosdev.com.br">Alex Medeiros Dev</a>
