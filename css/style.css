@@ -296,13 +296,16 @@ input[type="range"]::-webkit-slider-thumb {
 .text-simulacao {
     color: #015fc9;
     font-size: 60px;
-    line-height: 58px;
-    font-weight: 900px;
-    padding: 10px;
+    line-height: 50px;
+    font-weight: 900;
+    padding: 5px;
+}
+.paragrafo-botao-simulacao {
+    height: 15px;
 }
 .paragrafo-simulacao {
-    color: #fff;
-    padding: 10px;
+    color: #000;
+    padding-bottom: 10px;
 }
 
 .simulacao-item-content {
