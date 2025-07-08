@@ -293,12 +293,15 @@ input[type="range"]::-webkit-slider-thumb {
 
 /*** Simulação ***/
 
+.titulo {
+    color: #015fc9;
+}
+
 .text-simulacao {
     color: #015fc9;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 50px;
     font-weight: 900;
-    padding: 5px;
 }
 .paragrafo-botao-simulacao {
     height: 15px;
@@ -322,7 +325,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .simulacaorange{
-    width: 100%;
+    width: 70%;
 }
 
 .form-background {
